@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<title>Contacto</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link href="estilos.css" rel="stylesheet">
+  	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+	<div class="container-fluid">
+<div class="row" id="fila">
+    <div class="col-sm-3 text-center">
+
+		<nav class="navbar" id="menu-nav">
+
+  			<div class="container-fluid">
+
+
+  	<div class="navbar-header" >
+      <button type="button" id="menu-corto" class="navbar-toggle" data-toggle="collapse" data-target="#menu">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <img class="buho" src="imagenes/buhoazuldoradotransparente.png" alt="buho Icon" width="180" height="180">
+    </div>
+
+    <div class="collapse navbar-collapse" id="menu">
+			<ul><b>
+				<li><a href="index.html"><span class="glyphicon glyphicon-home"></span></a></li>
+				<li><div class="hr"><hr></div><a href="nosotros">Nosotros</a></li>
+				<li><div class="hr"><hr></div><a href="cursos.html">Cursos</a></li>
+
+				<li><div class="hr"><hr></div><a href="autoevaluaciones/index.html">Autoevaluaciones</a></li>
+				<li><div class="hr"><hr></div><a id="desplegable" data-toggle="collapse" href="#collapse2">Material Auxiliar</a></li>
+				<div id="collapse2" class="panel-collapse collapse">
+					<div class="panel-body"><a href="autoevaluaciones/resueltos.html">Ejercicios <br>Resuletos</a></div>
+      				<div class="panel-body"><a href="autoevaluaciones/tutoriales.html">Videos <br>Tutoriales</a></div>
+    			</div>
+				<li><div class="hr"><hr></div><a href="blog.html">Blog</a></li>
+				<li class="seleccionado"><div class="hr"><hr></div>Contacto<hr></li>
+				</b>
+			</ul>
+		
+
+		<div class="iconos">
+
+		<a class="linkicon" href="https://www.facebook.com/cnaquito/">
+			<img class="icon" src="imagenes/fb_icon.png" alt="Página en Facebook" width="40" height="40" data-toggle="tooltip" data-placement="bottom" title="Facebook">
+		</a>
+
+		<a class="linkicon" href="https://www.youtube.com/channel/UCOillrtP_9WX4FfYEBzAANw">
+			<img class="icon" src="imagenes/youtube_icon.png" alt="Canal de Youtube" width="45" height="37" data-toggle="tooltip" data-placement="bottom" title="YouTube">
+		</a>
+		</div>
+	</div>
+		</nav>
+	</div>
+
+
+	<div class="col-sm-9" id="cuerpo">
+
+		<h1><img class="titulo" src="imagenes/title.png" alt="CENTRO DE NIVELACIÓN ACADÉMICA QUITO" width="392" height="130"></h1>
+		<hr class="separador">
+
+	<div class="contactar">
+	<form action="">
+    <div class="form-group">
+    	<label for="nombre">Nombre:</label>
+      <input type="nombre" class="casilla required" id="nombre" placeholder="Nombre Apellido" name="nombre">
+      <br><br>
+      <label for="email">Email:</label>
+      <input type="email" class="casilla required" id="email" placeholder="Ingresa tu email" name="email">
+      <br><br>
+      <label for="comment">Comment:</label>
+      <textarea class="casilla" rows="5" id="consulta" placeholder="Escribe tu consulta"></textarea>
+    </div>
+    <div class="checkbox">
+      <label><input type="checkbox" name="suscrib"> Recibir noticias de cursos</label>
+    </div>
+    <button type="submit" class="boton">Enviar</button>
+  </form>
+  </div>
+	<div id="alumno">
+	<a href="alumno/alumno.html"><span class="glyphicon glyphicon-user"><small> Página del alumno</small></span></a>
+	</div>
+	<br><br>
+<footer class="container-fluid text-center">
+	
+  <div class="row" >
+  	<hr class="pie">
+    <div class="col-sm-4">
+      <p class="parrafo">
+      <img class="iconopie" src="imagenes/tel_icon.png" alt="teléfonos" width="30" height="30"><br>
+      <b>Teléfono:</b><br>(02) 2455 768<br>
+      <span class="glyphicon glyphicon-envelope"></span><b> Email:</b>
+      <a class="correo" href="mailto:cnaquito@hotmail.com"> cnaquito@hotmail.com </a><br>
+      <b>Whatsapp:</b><br>
+      <img src="imagenes/whats_icon.png" alt="Whatsapp" width="22" height="22"> 0998092823
+      </p>
+    </div>
+
+    <div class="col-sm-4"> 
+       <p class="parrafo">
+      <img class="iconopie" src="imagenes/hora_icon.png" alt="horarios" width="30" height="30"><br>
+      <b>Horarios de atención </b>
+      <br><br>
+      <b>Lunes a Viernes</b><br>
+      de 9:00 a 13:00<br>
+      y de 14:00 a 18:00<br>
+      <b>Sábados</b><br>
+      de 9:00 a 13:00
+      </p>
+    </div>
+
+    <div class="col-sm-4"> 
+      <p class="parrafo">
+      <img class="iconopie" src="imagenes/ubicacion_icon.png" alt="ubicacion" width="30" height="30"><br>
+      <b>Ubicación</b><br><br>
+      Daniel Hidalgo Oe173 y Av. 10 de Agosto<br>
+      <a class="linkicon" href="https://www.google.com.ar/maps/place/Daniel+Hidalgo,+Quito+170129,+Ecuador/@-0.1950224,-78.4955241,19.38z/data=!4m5!3m4!1s0x91d59a69aea5f113:0x20e7ca8585090f8b!8m2!3d-0.1948822!4d-78.4955581">
+        <img class="iconoinfo" src="imagenes/maps_icon.png" data-toggle="tooltip" data-placement="bottom" title="Ver en Google Maps" alt="Ver en Google Maps" width="35" height="35">
+      </a>
+      </p> 
+    </div>
+    </div> 
+</footer>
+
+</div>
+</div>
+</div>
+</body>
+</html>
+

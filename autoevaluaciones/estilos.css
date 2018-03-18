@@ -1,0 +1,171 @@
+@charset "UTF-8";
+body {
+	background-color:#1C4464;
+	/*background-color:#2C4F6D;*/
+	font-family:Arial, Helvetica, sans-serif;
+}
+
+.logo{
+	margin-top:-10px;
+}
+
+.navbar {
+      margin-bottom: 0;
+      border-radius: 0;
+    }
+
+#menu-nav a{
+	color:#D3BD74;
+	padding-top:20px;
+	padding-bottom:25px;
+}
+
+#menu-nav #myNavbar a:hover, #menu-nav a:hover{
+	color:#FFF5D5;
+}
+
+#menu-nav li a:hover{
+	color:#D3BD74;
+}
+
+#submenu{
+	background-color:#080808;
+}
+
+h3{
+	margin-top:90px;
+	color:#A6BDCF;
+}
+
+h4{
+	margin-top:20px;
+	color:#AD9544;
+	font-size:19px;
+}
+
+#submenu a:hover{
+	background-color:#222222;
+}
+
+.col-sm-4 p{
+	margin-top:5px;
+	color:#A6BDCF;
+	font-size:16px;
+}
+
+.col-sm-4 a img:hover{
+	border:3px solid #1E3649;
+}
+.col-sm-4 a:hover{
+	text-decoration:none;
+}
+
+.descripcion{
+	color:#162029;
+	background-color:rgba(96, 134, 164, 0.5);;
+	border-radius:30px;
+}
+    
+footer {
+	background-color: #6086A4;
+	padding: 15px;
+}
+
+.col-sm-4 .parrafo{
+	color:#1E3649;
+	text-shadow: 1px 2px 3px #A6BDCF;
+	font-size:16px;
+}
+    
+.carousel-inner img {
+	width: 100%; 
+    margin: auto;
+    min-height:100px;
+}
+
+@media (max-width: 600px) {
+	 .carousel-caption {
+      display: none; 
+    }
+  }
+  
+  
+.contenedor {
+	line-height: 1.5;
+	width: 80%;
+	margin-top:90px;
+	margin-left:6em;	
+	padding: 1em 5%;
+	background: rgba(255,255,255,0.6);
+	margin-bottom:20px;
+}
+
+.calif{
+	text-align:center;
+	font-size:18px;
+	color:#0863AE;
+}
+
+.boton {
+	
+    padding: 5px;
+    font-weight: 600;
+    font-size: 14px;
+	color:#D3BD74;
+    background:#222222;
+    border-radius: 6px;
+	border: 2px solid #E3C27F;
+}
+ 
+.boton:active{
+    color:#5A4B3C;
+    background-color:#443322;
+	border: 2px solid #D3BD74;
+ }
+ 
+.boton:disabled{
+    color:#5A4B3C;
+    background-color:#443322;
+	border: 2px solid #D3BD74;
+
+ }
+ 
+.boton:hover:enabled{
+    background:#1C4463;
+ }
+ 
+ .serie{
+ 	border: 1px solid #E3C27F;
+  	font-size: 16px;
+  	width: 50px;
+  	padding-left: 5px;
+  	padding-right: 5px;
+	padding-top: 3px;
+  	padding-bottom: 3px;
+  	border-radius: 4px;
+  	background-color:rgba(34,34,34,0.4);
+  	color: #222222;
+  }
+  
+.col-sm-6 img:hover{
+	border:3px solid #E3C27F;
+}
+.col-sm-6 a:hover{
+	text-decoration:none;
+}
+
+.col-sm-6 p{
+	margin-top:5px;
+	color:#E3C27F;
+	font-size:16px;
+}
+
+.titulo_gal{
+	margin-top:30px;
+	text-align:left;
+	color:#A4B4C1;
+}
+
+video:hover{
+	border:3px solid #A4B4C1;
+}
